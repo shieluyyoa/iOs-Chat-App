@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		06A758ED280087920098BCFF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A758EC280087920098BCFF /* Extensions.swift */; };
 		06A758EF280335930098BCFF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 06A758EE280335930098BCFF /* GoogleService-Info.plist */; };
+		06A758F12806000D0098BCFF /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A758F02806000D0098BCFF /* DatabaseManager.swift */; };
 		06DEB3D827FF608400202F87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DEB3D727FF608400202F87 /* AppDelegate.swift */; };
 		06DEB3DA27FF608400202F87 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DEB3D927FF608400202F87 /* SceneDelegate.swift */; };
 		06DEB3DC27FF608400202F87 /* ConversationsVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DEB3DB27FF608400202F87 /* ConversationsVIewController.swift */; };
@@ -47,6 +48,7 @@
 /* Begin PBXFileReference section */
 		06A758EC280087920098BCFF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		06A758EE280335930098BCFF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		06A758F02806000D0098BCFF /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DatabaseManager.swift; path = ../../../DatabaseManager.swift; sourceTree = "<group>"; };
 		06DEB3D427FF608400202F87 /* Messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Messenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06DEB3D727FF608400202F87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06DEB3D927FF608400202F87 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -201,6 +203,7 @@
 				06DEB3D727FF608400202F87 /* AppDelegate.swift */,
 				06DEB3D927FF608400202F87 /* SceneDelegate.swift */,
 				06A758EC280087920098BCFF /* Extensions.swift */,
+				06A758F02806000D0098BCFF /* DatabaseManager.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -408,6 +411,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06DEB40F27FF6B5C00202F87 /* LoginViewController.swift in Sources */,
+				06A758F12806000D0098BCFF /* DatabaseManager.swift in Sources */,
 				06DEB41127FF6B6F00202F87 /* RegisterViewController.swift in Sources */,
 				06DEB41727FF6BBF00202F87 /* NewConversationViewController.swift in Sources */,
 				06DEB3DC27FF608400202F87 /* ConversationsVIewController.swift in Sources */,
